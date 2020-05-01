@@ -1,0 +1,301 @@
+2020-05-01 12:24:42.231 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 13184 (D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo\target\classes started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:24:42.241 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-01 12:24:42.241 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:24:44.239 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:24:44.255 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:24:44.256 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 12:24:44.258 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-01 12:24:44.258 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:24:44.259 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:24:44.259 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:24:45.333 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:24:45.540 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:24:45.540 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3201 ms
+2020-05-01 12:24:45.822 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:24:46.389 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 12:24:46.398 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 5.737 seconds (JVM running for 15.628)
+2020-05-01 12:25:05.332 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:25:05.333 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:25:05.341 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-05-01 12:26:38.714 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:26:45.317 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 3192 (D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo\target\classes started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:26:45.320 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-05-01 12:26:45.320 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:26:46.028 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:26:46.035 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:26:46.036 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 12:26:46.037 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-01 12:26:46.037 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:26:46.038 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:26:46.038 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:26:47.102 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:26:47.175 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:26:47.175 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1813 ms
+2020-05-01 12:26:47.301 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:26:47.428 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 12:26:47.431 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 2.617 seconds (JVM running for 3.932)
+2020-05-01 12:26:58.954 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:26:58.954 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:26:58.958 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-05-01 12:30:45.537 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 6272 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:30:45.541 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.2.0.RELEASE, Spring v5.2.0.RELEASE
+2020-05-01 12:30:45.541 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:30:47.036 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:30:47.053 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:30:47.053 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 12:30:47.055 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-01 12:30:47.056 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:30:47.056 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:30:47.056 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:30:48.120 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:30:48.292 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:30:48.293 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2687 ms
+2020-05-01 12:30:48.522 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:30:49.034 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 12:30:49.040 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 4.872 seconds (JVM running for 13.802)
+2020-05-01 12:30:57.880 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:30:57.881 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:30:57.887 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-05-01 12:32:25.787 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:32:40.706 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 3312 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:32:40.711 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-05-01 12:32:40.711 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:32:42.343 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:32:42.374 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:32:42.375 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-01 12:32:42.383 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-05-01 12:32:42.383 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:32:42.384 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:32:42.384 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:32:43.455 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:32:43.650 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:32:43.651 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2854 ms
+2020-05-01 12:32:43.974 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:32:44.508 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 12:32:44.514 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 4.771 seconds (JVM running for 13.424)
+2020-05-01 12:32:46.608 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:32:46.609 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:32:46.616 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-05-01 12:34:22.014 [Thread-18] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception thrown from LifecycleProcessor on context close
+java.lang.IllegalStateException: Failed to introspect Class [com.lhz.interceptor.MyWebMvcConfig] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:507)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:404)
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:389)
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:447)
+	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:738)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:679)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:647)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1518)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:511)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:481)
+	at org.springframework.context.support.DefaultLifecycleProcessor.getLifecycleBeans(DefaultLifecycleProcessor.java:281)
+	at org.springframework.context.support.DefaultLifecycleProcessor.stopBeans(DefaultLifecycleProcessor.java:195)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onClose(DefaultLifecycleProcessor.java:128)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1018)
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
+Caused by: java.lang.NoClassDefFoundError: com/lhz/interceptor/AuthenticationHandlerInterceptor
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:489)
+	... 15 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.lhz.interceptor.AuthenticationHandlerInterceptor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:335)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 19 common frames omitted
+2020-05-01 12:34:22.017 [Thread-18] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:34:37.337 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 8068 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:34:37.340 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-05-01 12:34:37.341 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:34:38.724 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:34:38.753 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:34:38.754 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-01 12:34:38.762 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-05-01 12:34:38.763 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:34:38.763 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:34:38.764 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:34:39.825 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:34:39.980 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:34:39.980 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2559 ms
+2020-05-01 12:34:40.745 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 12:34:40.750 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 4.271 seconds (JVM running for 12.964)
+2020-05-01 12:35:03.842 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:35:03.842 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:35:03.849 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-05-01 12:35:37.816 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 1552 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:35:37.820 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-05-01 12:35:37.821 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:35:39.187 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:35:39.221 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:35:39.222 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-01 12:35:39.229 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-05-01 12:35:39.230 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:35:39.230 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:35:39.231 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:35:40.289 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:35:40.448 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:35:40.449 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2546 ms
+2020-05-01 12:35:41.254 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 12:35:41.260 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 4.293 seconds (JVM running for 12.798)
+2020-05-01 12:35:43.978 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:35:43.978 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:35:43.985 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-05-01 12:36:45.014 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 10692 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:36:45.018 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-05-01 12:36:45.019 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:36:46.748 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:36:46.783 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:36:46.784 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-01 12:36:46.793 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-05-01 12:36:46.793 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:36:46.794 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:36:46.794 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:36:47.877 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:36:48.051 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:36:48.051 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2955 ms
+2020-05-01 12:36:48.824 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-01 12:36:49.130 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-01 12:36:49.157 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-01 12:36:49.203 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-01 12:36:49.276 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 12:36:49.282 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 5.119 seconds (JVM running for 13.592)
+2020-05-01 12:36:52.766 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:36:52.766 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:36:52.786 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2020-05-01 12:41:35.499 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 2068 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:41:35.503 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-05-01 12:41:35.504 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:41:37.399 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:41:37.428 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:41:37.428 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-01 12:41:37.436 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-05-01 12:41:37.437 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:41:37.437 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:41:37.438 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:41:38.496 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:41:38.658 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:41:38.659 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3074 ms
+2020-05-01 12:41:39.450 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-01 12:41:39.796 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-01 12:41:39.828 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-01 12:41:39.872 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-01 12:41:39.940 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 12:41:39.945 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 5.319 seconds (JVM running for 14.117)
+2020-05-01 12:41:42.466 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:41:42.467 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:41:42.475 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-05-01 12:42:09.849 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 1164 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:42:09.853 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2020-05-01 12:42:09.853 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:42:11.901 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:42:11.933 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:42:11.933 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-05-01 12:42:11.940 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2020-05-01 12:42:11.940 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:42:11.941 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:42:11.941 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:42:13.071 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:42:13.269 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:42:13.269 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3329 ms
+2020-05-01 12:42:14.054 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-01 12:42:14.235 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:42:14.415 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-01 12:42:14.441 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-01 12:42:14.485 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-01 12:42:14.556 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 12:42:14.562 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 5.701 seconds (JVM running for 15.364)
+2020-05-01 12:42:16.679 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:42:16.680 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:42:16.689 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-05-01 12:43:19.456 [Thread-18] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 12:43:34.940 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 13652 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:43:34.944 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.1.10.RELEASE, Spring v5.1.11.RELEASE
+2020-05-01 12:43:34.945 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:43:36.755 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:43:36.787 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:43:36.788 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 12:43:36.795 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-01 12:43:36.796 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:43:36.797 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:43:36.797 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:43:37.878 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:43:38.052 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:43:38.053 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3022 ms
+2020-05-01 12:43:38.750 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-01 12:43:39.072 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-01 12:43:39.097 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-01 12:43:39.145 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-01 12:43:39.212 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-05-01 12:43:39.218 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 5.194 seconds (JVM running for 13.798)
+2020-05-01 12:43:49.416 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:43:49.417 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:43:49.428 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-05-01 12:45:11.447 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 8072 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:45:11.451 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.1.10.RELEASE, Spring v5.1.11.RELEASE
+2020-05-01 12:45:11.452 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:45:13.152 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:45:13.180 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:45:13.181 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 12:45:13.188 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-01 12:45:13.189 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:45:13.189 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:45:13.190 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:45:14.243 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:45:14.438 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:45:14.439 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2904 ms
+2020-05-01 12:45:15.179 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-01 12:45:15.477 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-01 12:45:15.501 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-01 12:45:15.547 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-01 12:45:15.612 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-05-01 12:45:15.617 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 5.035 seconds (JVM running for 14.428)
+2020-05-01 12:45:19.486 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:45:19.486 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:45:19.496 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-05-01 12:46:18.192 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 9620 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:46:18.196 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.1.10.RELEASE, Spring v5.1.11.RELEASE
+2020-05-01 12:46:18.197 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:46:19.961 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:46:19.989 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:46:19.989 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 12:46:19.997 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-01 12:46:19.997 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:46:19.998 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:46:19.998 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:46:21.074 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:46:21.264 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:46:21.265 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2982 ms
+2020-05-01 12:46:21.994 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-01 12:46:22.300 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-01 12:46:22.324 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-01 12:46:22.370 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-01 12:46:22.528 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-05-01 12:46:22.534 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 5.231 seconds (JVM running for 14.929)
+2020-05-01 12:46:27.935 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:46:27.936 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:46:27.944 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-05-01 12:48:14.328 [main] INFO  com.lhz.EasyDemoApplication - Starting EasyDemoApplication on DESKTOP-73SIQ66 with PID 14416 (started by LiHuaZhi in D:\MySpaceCloud\MEGAsync\SpringBoot整合EasyExcel\easy-demo)
+2020-05-01 12:48:14.331 [main] DEBUG com.lhz.EasyDemoApplication - Running with Spring Boot v2.1.10.RELEASE, Spring v5.1.11.RELEASE
+2020-05-01 12:48:14.331 [main] INFO  com.lhz.EasyDemoApplication - No active profile set, falling back to default profiles: default
+2020-05-01 12:48:16.049 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-05-01 12:48:16.078 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-05-01 12:48:16.078 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2020-05-01 12:48:16.086 [main] INFO  org.apache.catalina.core.AprLifecycleListener - An older version [1.2.14] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-05-01 12:48:16.086 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded APR based Apache Tomcat Native library [1.2.14] using APR version [1.6.2].
+2020-05-01 12:48:16.087 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 12:48:16.087 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 12:48:17.137 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2l  25 May 2017]
+2020-05-01 12:48:17.312 [main] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring embedded WebApplicationContext
+2020-05-01 12:48:17.314 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2896 ms
+2020-05-01 12:48:18.100 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-05-01 12:48:18.404 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2020-05-01 12:48:18.428 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-05-01 12:48:18.475 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2020-05-01 12:48:18.642 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/demo'
+2020-05-01 12:48:18.649 [main] INFO  com.lhz.EasyDemoApplication - Started EasyDemoApplication in 5.178 seconds (JVM running for 14.04)
+2020-05-01 12:48:23.563 [http-nio-8080-exec-1] INFO  o.a.c.c.ContainerBase.[Tomcat].[localhost].[/demo] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-01 12:48:23.563 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-05-01 12:48:23.572 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms

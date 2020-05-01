@@ -1,0 +1,26 @@
+#设置公用内容
+server:
+  servlet:
+    context-path: /demo
+spring:
+  application:
+    name: demo
+  #文件上传限制
+  servlet:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+      enabled: true
+  #异常时触发事务回滚
+  transaction:
+    rollback-on-commit-failure: true
+  #设置Spring AOP代理方式：true-cglib代理；false-jdk*屏蔽的关键字*
+  aop:
+    proxy-target-class: true
+
+  #统一时间返回格式
+  jackson:
+    #date-format: yyyy-MM-dd HH:mm:ss #返回时间戳时不进行格式化
+    time-zone: GMT+8
+    serialization:
+      write-dates-as-timestamps: true #是否返回时间戳
