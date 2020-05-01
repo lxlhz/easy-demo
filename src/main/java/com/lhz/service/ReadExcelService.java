@@ -1,8 +1,7 @@
 package com.lhz.service;
 
 import com.alibaba.excel.EasyExcel;
-import com.alibaba.excel.ExcelReader;
-import com.alibaba.excel.read.metadata.ReadSheet;
+import com.lhz.entity.DeviceData;
 import com.lhz.entity.PersonData;
 import com.lhz.exception.ServiceException;
 import com.lhz.listener.PersonDataListener;
@@ -26,13 +25,11 @@ public class ReadExcelService {
     /**
      * 每隔3000条存储数据库，然后清理list ，方便内存回收
      */
-    private static final int BATCH_COUNT = 3000;
-
     @Resource
     private PersonDataListener personDataListener;
 
     //读取用户选择的excel文件
-    public Object readPeronExcel(String filePath) {
+    public void readPeronExcel(String filePath) {
 
         //设置headRowNumber表示从第几行开始读取，下标从0开始
         // 写法1：
@@ -48,16 +45,17 @@ public class ReadExcelService {
          // 这里千万别忘记关闭，读的时候会创建临时文件，到时磁盘会崩的
          excelReader.finish();
          */
+    }
 
-        return "成功";
+    //读取设备的excel文件
+    public void readDeviceExcel(String filePath) {
+        EasyExcel.read(filePath, PersonData.class, personDataListener).sheet().headRowNumber(2).doRead();
     }
 
 
-    public Object readPeronExcelByUpload(MultipartFile file) throws Exception {
+    public void readPeronExcelByUpload(MultipartFile file) throws Exception {
         //设置headRowNumber表示从第几行开始读取，下标从0开始
         EasyExcel.read(file.getInputStream(), PersonData.class, personDataListener).sheet().headRowNumber(2).doRead();
-
-        return "成功";
     }
 
     //对导入数据进行业务判断
@@ -73,10 +71,14 @@ public class ReadExcelService {
         List<PersonData> collect = list.stream().filter(li -> li.getMonth() >= 5000).collect(Collectors.toList());
         log.info("月薪达标按数量：" + collect.size());
 
-        // 达到BATCH_COUNT了，需要去存储一次数据库，防止数据几万条数据在内存，容易OOM
-        if (list.size() >= BATCH_COUNT) {
-            //插入数据库
-            log.info("插入数据库：" + list.size());
-        }
+        //插入数据库
+        log.info("插入人员数据库：" + list.size());
+    }
+
+    //保存有效的导入数据
+    public void saveDeviceExcel(List<DeviceData> list) {
+
+        //插入数据库
+        log.info("插入设备数据库：" + list.size());
     }
 }

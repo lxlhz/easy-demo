@@ -6,6 +6,7 @@ import com.alibaba.excel.event.AnalysisEventListener;
 import com.alibaba.excel.exception.ExcelDataConvertException;
 import com.alibaba.excel.metadata.CellExtra;
 import com.alibaba.fastjson.JSON;
+import com.lhz.entity.DeviceData;
 import com.lhz.entity.PersonData;
 import com.lhz.service.ReadExcelService;
 import lombok.extern.slf4j.Slf4j;
@@ -29,14 +30,14 @@ import java.util.Map;
 
 @Slf4j
 @Component
-public class PersonDataListener extends AnalysisEventListener<PersonData> {
+public class PersonDataListener<T> extends AnalysisEventListener<T> {
 
 
     @Resource
     private ReadExcelService excelService;
 
     //存放解析后的数据
-    private List<PersonData> list = new ArrayList<>();
+    private List<T> list = new ArrayList<>();
 
     /**
      * 获取额外内容：批注、超链接、合并单元格信息读取，暂时无法测试出效果，并没有进行该方法中，等后续版本更新
@@ -90,16 +91,24 @@ public class PersonDataListener extends AnalysisEventListener<PersonData> {
     /**
      * 这个每一条数据解析都会来调用
      *
-     * @param data    one row value. Is is same as {@link AnalysisContext#readRowHolder()}
+     * @param t       one row value. Is is same as {@link AnalysisContext#readRowHolder()}
      * @param context
      */
     @Override
-    public void invoke(PersonData data, AnalysisContext context) {
-        log.info("解析到一条数据:{}", JSON.toJSONString(data));
+    public void invoke(T t, AnalysisContext context) {
+        log.info("解析到一条数据:{}", JSON.toJSONString(t));
         //调用service类进行一些业务判断操作
         Integer rowIndex = context.readRowHolder().getRowIndex() + 1;//当时行数，从0开始，实际加1
-        excelService.checkPersonExcel(data, rowIndex);
-        list.add(data);
+        //通过判断泛型类，调用不同的Service类
+        if (t instanceof PersonData) {
+            PersonData data = (PersonData) t;
+            excelService.checkPersonExcel(data, rowIndex);
+            list.add(t);
+        }
+
+        if (t instanceof DeviceData) {
+            list.add(t);
+        }
     }
 
     /**
@@ -134,11 +143,25 @@ public class PersonDataListener extends AnalysisEventListener<PersonData> {
         }
     }
 
+
     /**
      * 加上存储数据库
      */
     private void saveData() {
         log.info("{}条数据，开始存储数据库！", list.size());
-        excelService.savePersonExcel(list);
+
+        //人员数据
+        if (list instanceof PersonData) {
+            List<PersonData> dataList = new ArrayList<>();
+            excelService.savePersonExcel(dataList);
+        }
+
+        //设备数据
+        if (list instanceof PersonData) {
+            List<DeviceData> dataList = new ArrayList<>();
+            excelService.saveDeviceExcel(dataList);
+        }
+
+        list.clear();
     }
 }

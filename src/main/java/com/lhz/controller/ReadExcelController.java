@@ -23,20 +23,28 @@ public class ReadExcelController {
     @Resource
     private ReadExcelService readExcelService;
 
-    @GetMapping
-    @ApiOperation(value = "根据文件路径读取Excel", notes = "根据文件路径读取Excel")
+    @GetMapping("/user")
+    @ApiOperation(value = "根据用户文件", notes = "根据用户文件")
     @ApiImplicitParam(name = "filePath", value = "Excel路径", paramType = "query", required = true, dataType = "String")
     public Object readPerson(@RequestParam String filePath) {
-        Object obj = readExcelService.readPeronExcel(filePath);
-        return ResponseObject.success(obj);
+        readExcelService.readPeronExcel(filePath);
+        return ResponseObject.success();
     }
 
-    @PostMapping("/upload")
-    @ApiOperation(value = "上传文件路径读取Excel", notes = "上传文件路径读取Excel")
+    @GetMapping("/device")
+    @ApiOperation(value = "根据设备文件", notes = "根据设备文件")
+    @ApiImplicitParam(name = "filePath", value = "Excel路径", paramType = "query", required = true, dataType = "String")
+    public Object readDevice(@RequestParam String filePath) {
+        readExcelService.readDeviceExcel(filePath);
+        return ResponseObject.success();
+    }
+
+    @PostMapping("/user/upload")
+    @ApiOperation(value = "上传用户文件", notes = "上传用户文件")
     @ApiImplicitParam(name = "file", value = "文件", paramType = "body", dataType = "MultipartFile", required = true)
     public Object readPersonByUpload(@RequestParam MultipartFile file) throws Exception {
-        Object obj = readExcelService.readPeronExcelByUpload(file);
-        return ResponseObject.success(obj);
+        readExcelService.readPeronExcelByUpload(file);
+        return ResponseObject.success();
     }
 
 }
