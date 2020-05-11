@@ -24,7 +24,7 @@ public class ReadExcelController {
     private ReadExcelService readExcelService;
 
     @GetMapping("/user")
-    @ApiOperation(value = "根据用户文件", notes = "根据用户文件")
+    @ApiOperation(value = "录入用户文件路径", notes = "录入用户文件路径")
     @ApiImplicitParam(name = "filePath", value = "Excel路径", paramType = "query", required = true, dataType = "String")
     public Object readPerson(@RequestParam String filePath) {
         readExcelService.readPeronExcel(filePath);
@@ -32,7 +32,7 @@ public class ReadExcelController {
     }
 
     @GetMapping("/device")
-    @ApiOperation(value = "根据设备文件", notes = "根据设备文件")
+    @ApiOperation(value = "录入设备文件路径", notes = "录入设备文件路径")
     @ApiImplicitParam(name = "filePath", value = "Excel路径", paramType = "query", required = true, dataType = "String")
     public Object readDevice(@RequestParam String filePath) {
         readExcelService.readDeviceExcel(filePath);
