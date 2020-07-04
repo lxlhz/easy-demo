@@ -152,16 +152,20 @@ public class PersonDataListener<T> extends AnalysisEventListener<T> {
 
         //人员数据
         if (list instanceof PersonData) {
-            List<PersonData> dataList = new ArrayList<>();
+            String jsonString = JSON.toJSONString(list);
+            List<PersonData> dataList = JSON.parseArray(jsonString, PersonData.class);
+            list.clear();
             excelService.savePersonExcel(dataList);
         }
 
         //设备数据
         if (list instanceof PersonData) {
-            List<DeviceData> dataList = new ArrayList<>();
+            String jsonString = JSON.toJSONString(list);
+            List<DeviceData> dataList = JSON.parseArray(jsonString, DeviceData.class);
+            list.clear();
             excelService.saveDeviceExcel(dataList);
         }
 
-        list.clear();
+
     }
 }
